@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <nav class="header navbar navbar-warning bg-dark">
+      <div class="container d-flex justify-content-between">
+        <a href="#"
+          ><img style="width: 40px" src="./images/Vector (2).svg" alt=""
+        /></a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-warning">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./hobbies.html" class="nav-link text-warning">Hobbies</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Бургер меню -->
+    <div class="burger__menu">
+      <div
+        class="burger__menu_content collapse"
+        id="navbarToggleExternalContent"
+        data-bs-theme="dark"
+      >
+        <div class="burger__menu_list bg-dark p-4">
+          <a href="#" class="nav-link text-warning">Home</a>
+          <a href="./hobbies.html" class="nav-link text-warning">Hobbies</a>
+        </div>
+      </div>
+      <nav class="burger__menu_icon navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!-- Главная секция -->
+    <div id="Main" class="bg-dark h-100 py-5">
+      <div
+        class="section__main_container container d-flex flex-wrap justify-content-between align-items-center py-5"
+      >
+        <div class="section__main_text w-25">
+          <h1 style="font-size: 64px" class="section__main_title text-warning">
+            Arsen Shergaziev
+          </h1>
+          <p class="section__main_desc text-warning">
+            Hello, I am a student and currently studying front-end developer in
+            the course of makers
+          </p>
+          <button class="btn btn-warning">example@gmail.com</button>
+        </div>
+        <img style="width: 43.5%" src="./images/Vector (2).svg" alt="" />
+      </div>
+    </div>
+    <!-- Вторая Секция -->
+    <div id="Skills" class="bg-warning h-100">
+      <div class="container d-flex flex-column align-items-center py-3">
+        <h1 style="font-size: 64px" class="text-dark mb-3">My Skills</h1>
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+          <div class="col">
+            <!-- Внутри card прописан параметры тени -->
+            <div
+              class="card p-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+              style="width: 15rem"
+            >
+              <img
+                src="./images/html5-01-svgrepo-com.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="color: #f86f03">HTML</span>
+                </h5>
+                <p class="card-text">
+                  I have a good enough skill to competently use HTML for web
+                  layout
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Внутри card прописан параметры тени -->
+            <div
+              class="card p-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+              style="width: 15rem"
+            >
+              <img
+                src="./images/css3-01-svgrepo-com.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="color: #0a6ebd">CSS</span>
+                </h5>
+                <p class="card-text">
+                  I have a good enough skill to competently use CSS to style a
+                  website
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Внутри card прописан параметры тени -->
+            <div
+              class="card p-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+              style="width: 15rem"
+            >
+              <img
+                src="./images/js-svgrepo-com.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="color: #b49827">JavaScript</span>
+                </h5>
+                <p class="card-text">
+                  I know the basics of Javascript, and I can solve fairly basic
+                  tasks
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Внутри card прописан параметры тени -->
+            <div
+              class="card p-3 shadow p-3 mb-5 bg-body-tertiary rounded"
+              style="width: 15rem"
+            >
+              <img
+                src="./images/github-142-svgrepo-com.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span style="color: #393646">Github</span>
+                </h5>
+                <p class="card-text">
+                  I can competently use git for future collaboration
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Третья секция -->
+    <div id="About" class="bg-dark h-100">
+      <div
+        class="container d-flex flex-column align-items-center py-5 text-center"
+      >
+        <img
+          src="./images/about-filled-svgrepo-com 1.svg"
+          alt=""
+          style="width: 25%"
+        />
+        <h1 class="text-warning" style="font-size: 64px">About me</h1>
+        <p class="text-warning w-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          facilis magnam eius incidunt temporibus ipsam, quaerat ea labore
+          corrupti sed saepe praesentium omnis repudiandae voluptatibus!
+        </p>
+      </div>
+    </div>
+    <!-- Четвёртая секция -->
+    <div
+      id="Contact"
+      class="bg-warning d-flex flex-column align-items-center py-5"
+    >
+      <h1 class="text-dark text-center">Contact me</h1>
+      <img
+        src="./images/contact-details-svgrepo-com 1.svg"
+        style="width: 25%"
+        alt=""
+      />
+      <div class="input-group mb-3 w-50">
+        <span class="input-group-text bg-dark text-warning" id="basic-addon1"
+          >Email</span
+        >
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Example@gmail.com"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <button class="btn btn-dark text-warning">Click here</button>
+    </div>
+    <!-- Подвал сайта -->
+    <footer class="bg-dark">
+      <div
+        class="footer__container container d-flex justify-content-between align-items-end py-5"
+      >
+        <ul class="footer__list">
+          <li class="footer__item">
+            <h4 class="footer__item_title text-warning">Contacts</h4>
+            <div class="footer__item_link">
+              <img src="./images/whatsapp.svg" alt="" />
+              <p class="text-warning">+996708262477</p>
+            </div>
+            <a href="https://t.me/inseensee" class="footer__item_link">
+              <img src="./images/telegram-plane.svg" alt="" />
+              <p class="text-warning">telegram</p>
+            </a>
+            <a href="https://github.com/Kurul-afk" class="footer__item_link">
+              <img src="./images/github-alt.svg" alt="" />
+              <p class="text-warning">github</p>
+            </a>
+          </li>
+          <li class="footer__item">
+            <h4 class="footer__item_title text-warning">Links</h4>
+            <a href="#Main" class="footer__item_link text-warning">Main </a>
+            <a href="#About" class="footer__item_link text-warning"
+              >About me
+            </a>
+            <a href="#Skills" class="footer__item_link text-warning"
+              >My skills
+            </a>
+            <a href="#Contact" class="footer__item_link text-warning"
+              >Contact me
+            </a>
+          </li>
+        </ul>
+        <p class="footer__author text-warning">made by: Shergaziev Arsen</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
