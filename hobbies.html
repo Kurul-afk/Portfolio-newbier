@@ -10,10 +10,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/Vector (2).svg"
+      type="image/x-icon"
+    />
     <title>Hobbies</title>
   </head>
   <body>
-    <!-- Подвал сайта -->
     <!-- Шапка сайта -->
     <nav class="header navbar navbar-warning bg-dark">
       <div class="container d-flex justify-content-between">
@@ -58,7 +62,63 @@
         </div>
       </nav>
     </div>
-
+    <!-- Первая секция -->
+    <div class="hobbies__main bg-warning h-100">
+      <div class="container">
+        <div class="hobbies__main_text">
+          <img style="width: 25%" src="./images/laptop.svg" alt="" />
+          <h1 class="hobbies__main_title text-dark">My Hobbies</h1>
+          <p class="hobbies__main_desc text-dark">
+            My hobbies are computer games, cooking, programming and sometimes I
+            study design. I'm going to learn how to use photoshop, adobe
+            illustrator, blender and figma.
+          </p>
+        </div>
+        <div class="hobbies__games">
+          <img style="width: 25%" src="./images/games.svg" alt="" />
+          <div class="hobbies__games_text">
+            <h1 class="hobbies__games_title text-dark">Games</h1>
+            <p class="hobbies__games_desc text-dark">
+              When I'm free, I just play computer games and that's how I relax.
+              I want to create my own game in the future
+            </p>
+          </div>
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/warcraft.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="./images/csgo.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./images/dota2.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hobbies__cooking">
+          <img style="width: 40%" src="./images/cooking.svg" alt="" />
+          <div class="hobbies__cooking_text">
+            <h1 class="hobbies__cooking_title text-dark">Cooking</h1>
+            <p class="hobbies__cooking_desc text-dark">
+              I learned to cook at the age of 14, at the beginning I did not
+              want to do it, but over time I even liked it a little. and since
+              that time I have learned how to cook many different dishes
+              (Although all of them are homemade)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Подвал сайта -->
     <footer class="bg-dark">
       <div
